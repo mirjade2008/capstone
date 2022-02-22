@@ -1,6 +1,7 @@
 .App {
   text-align: center;
-  font-size: larger;
+  font-size: xx-large;
+  font-family:cursive;
 }
 
 .App-logo {
@@ -37,3 +38,18 @@
     transform: rotate(360deg);
   }
 }
+
+button {
+  font-size: large;
+  font-weight: 500;
+  font-family: cursive;
+  
+}
+
+.card {
+  padding: 15px;
+  background-position: 10%;
+  background-color: antiquewhite;
+
+}
+

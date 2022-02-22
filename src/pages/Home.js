@@ -10,6 +10,7 @@ class Home extends Component {
         return (
             <div>               
                 <h1>Welcome to Cincinnati Ohio!</h1>
+                
       <img src={GABP} alt="mypic"/>
        <h2>Join the Queen City for your next adventure!</h2>
       <p>
@@ -17,6 +18,10 @@ class Home extends Component {
       </p>
           <div>
             <Slideshow />
+          </div>
+
+          <div>
+            <img src=''></img>
           </div>
 
    

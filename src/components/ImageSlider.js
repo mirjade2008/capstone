@@ -21,7 +21,6 @@ const slideImages = [
     'https://bloximages.newyork1.vip.townnews.com/herald-dispatch.com/content/tncms/assets/v3/editorial/0/6a/06a0bee8-a46b-50e3-89c5-e47e1a545038/562025bddad32.image.jpg?resize=1200%2C801',
     'https://th.bing.com/th/id/OIP.3NJWDWOTheaTtUQBKp5OLQAAAA?pid=ImgDet&rs=1',
     'https://www.busytourist.com/wp-content/uploads/2019/07/Findlay-Market.jpg',
-    'https://i.pinimg.com/originals/18/de/11/18de11ced9b3c9fd2bb9747269e34b32.jpg',
     'https://ucintlambassadors.files.wordpress.com/2020/03/viptour_rhinegeist-21-1200x800-1.jpg?w=1024',
     'https://www.gulfroyaltravels.com/wp-content/uploads/2018/09/6b1cb342-dd95-11e6-b255-0a6afe88c81b.jpg',
     'https://img2.10bestmedia.com/Images/Photos/289765/p-Newport-Aquarium-shark-tunnel-SOvqiNyGjuUM2IxqhfQbXon-cmyk-l_54_990x660.jpg',
@@ -157,21 +156,7 @@ const Slideshow = () => {
               <span>Slide 24</span>
             </div>
           </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[24]})`}}>
-              <span>Slide 25</span>
-            </div>
-          </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[25]})`}}>
-              <span>Slide 26</span>
-            </div>
-          </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[26]})`}}>
-              <span>Slide 27</span>
-            </div>
-          </div>
+          
         </Slide>
       </div>
     )
