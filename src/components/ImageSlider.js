@@ -43,122 +43,122 @@ const Slideshow = () => {
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[1]})`}}>
-              <span>Slide 2</span>
             </div>
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[2]})`}}>
-              <span>Slide 3</span>
-            </div>
+          </div>
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[3]})`}}>
-              <span>Slide 4</span>
-            </div>
+           </div>   
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[4]})`}}>
-              <span>Slide 5</span>
+              
             </div>
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[5]})`}}>
-              <span>Slide 6</span>
+              
             </div>
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[6]})`}}>
-              <span>Slide 7</span>
+              
             </div>
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[7]})`}}>
-              <span>Slide 8</span>
+              
             </div>
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[8]})`}}>
-              <span>Slide 9</span>
+              
             </div>
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[9]})`}}>
-              <span>Slide 10</span>
+              
             </div>
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[10]})`}}>
-              <span>Slide 11</span>
+              
             </div>
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[11]})`}}>
-              <span>Slide 12</span>
+              
             </div>
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[12]})`}}>
-              <span>Slide 13</span>
+              
             </div>
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[13]})`}}>
-              <span>Slide 14</span>
-            </div>
-          </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[14]})`}}>
-              <span>Slide 15</span>
+             
             </div>
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[15]})`}}>
-              <span>Slide 16</span>
+             
+            </div>
+            </div>          
+          <div className="each-slide">
+            <div style={{'backgroundImage': `url(${slideImages[15]})`}}>
+              
             </div>
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[16]})`}}>
-              <span>Slide 17</span>
+              <span>Cinci</span>
             </div>
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[17]})`}}>
-              <span>Slide 18</span>
+              
             </div>
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[18]})`}}>
-              <span>Slide 19</span>
-            </div>
+              </div>
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[19]})`}}>
-              <span>Slide 20</span>
+              
             </div>
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[20]})`}}>
-              <span>Slide 21</span>
+              
             </div>
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[21]})`}}>
-              <span>Slide 22</span>
+              
             </div>
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[22]})`}}>
-              <span>Slide 23</span>
+              
             </div>
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[23]})`}}>
-              <span>Slide 24</span>
+              
             </div>
           </div>
+          </Slide>
+          </div>
           
-        </Slide>
-      </div>
+         
+       
+        
+     
     )
 };
 
@@ -166,25 +166,4 @@ export default Slideshow;
 
 
 
-// const Slider = ({ slides }) => {
-//     const [current, setCurrent] = useState(0)
-//     const length = slides.length
-
-// }
-
-//   function ImageSlider() {
-//       return (
-//       <section className='slider'>
-//       <FaArrowAltCircleLeft className ='left-arrow' />
-//       <FaArrowAltCircleRight className ='right-arrow' />
-//           {SliderData.map((slide, index) => {
-//               return <img src={slide.image} alt='cinci image'/>;
-                        
-//           })}
-//       </section>
-        
-//     );
-// };
-  
-
-// export default ImageSlider;
+ 
