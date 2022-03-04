@@ -7,31 +7,27 @@ const Navbar = () => {
         <>
            <Nav>
             <NavLogo to="/">
-            Welcome to Cincinnati Ohio!
+            Home
             </NavLogo>
             <Bars />
 
             <NavMenu>
-                <NavLink 
-                  to="/" 
+                {/* <NavLink to="/" 
                   activeStyle={{ color:'black' }}
                 >
-                    Home
-                </NavLink>
-                <NavLink 
-                  to="/about" 
-                  activeStyle={{ color: 'black' }}
-                >
+                    About
+                </NavLink> */}
+                <NavLink to="/about" 
+                  activeStyle={{ color: 'black' }} 
+                  >
                     About
                 </NavLink>
-                <NavLink 
-                  to="/contact" 
+                <NavLink to="/contact" 
                   activeStyle={{ color: 'black' }}
                 >
-                    Contact
+                    Contact Us
                 </NavLink>
-                <NavLink 
-                  to="/signin" 
+                <NavLink to="/signin" 
                   activeStyle={{ color: 'black' }}
             ></NavLink>
             </NavMenu>

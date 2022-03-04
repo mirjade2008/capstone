@@ -39,14 +39,14 @@
   }
 }
 
-button {
+.button {
   font-size: large;
   font-weight: 500;
   font-family: cursive;
   
 }
 
-.card {
+.cards {
   padding: 15px;
   background-position: 10%;
   background-color: antiquewhite;
