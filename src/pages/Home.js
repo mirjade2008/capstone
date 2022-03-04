@@ -1,6 +1,6 @@
 import  React,{ Component } from  'react';
 import GABP from '../img/GABP.jpg'
-//import Navbar from '../components/Navbar';
+import Navbar from './Navbar';
 // import ImageSlider from '../components/ImageSlider';
 // import { SliderData } from './components/SliderData';
 import Slideshow from '../components/ImageSlider';
@@ -9,24 +9,25 @@ import PlacesImg from '../img/places-to-stay.jpg';
 import ThingsImg from '../img/things-to-do.jpg';
 import EatImg from '../img/Eat-&-drink.jpg';
 import TripImg from '../img/trip-ideas.jpg';
+import { FaNs8 } from 'react-icons/fa';
+import CincyImg from '../img/Cincy-at-night.jpg';
+import PlayImg from '../img/Casino.png';
+import '../styles/Home.css';
 
 
 const Home = () =>{
   return (
     <div>    
-    <h1>Welcome to Cincinnati Ohio!</h1>
-    <img src='C:\Users\kable\Documents\codingProjects\cinci\src\img\Cincy-at-night.jpg' alt=''></img>           
+    <h1 className='about-heading'>Join the Queen City for your next adventure!</h1>
+    {/* <img src='C:\Users\kable\Documents\codingProjects\cinci\src\img\Cincy-at-night.jpg' alt=''></img>            */}
 
 <img src={GABP} alt="mypic"/>
-<h2>Join the Queen City for your next adventure!</h2>
-
-<Slideshow />
 
 
 
         <Card style={{ width: '24rem' }} />
-      <Card.Img variant="top" src={ThingsImg} alt='' />
-      <Card.Body>
+      <Card.Img variant="top" src={PlayImg} alt='' />
+      <Card.Body> 
         <Card.Title>Things To Do</Card.Title>
         <Card.Text>
           
